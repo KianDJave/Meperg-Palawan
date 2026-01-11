@@ -1,4 +1,8 @@
 import { Home, Search } from "lucide-react";
+import bg from "./assets/9701.jpg";
+import pcg from "./assets/pcg.png";
+import cgdpal from "./assets/cgdpal.png";
+
 
 function App() {
   return (
@@ -6,10 +10,11 @@ function App() {
       {/* Background - Ship Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/9701.jpg"
-          alt="Coast Guard Facility"
-          className="w-full h-full object-cover object-center"
-        />
+  src={bg}
+  alt="Coast Guard Facility"
+  className="w-full h-full object-cover object-center"
+/>
+
         <div className="absolute inset-0 bg-gradient-to-b from-blue-900/75 via-blue-700/60 to-blue-600/70" />
       </div>
 
@@ -35,20 +40,18 @@ function App() {
   <div className="flex items-center gap-4">
     <span className="text-sm">Admin</span>
   </div>
-</header>
-
-
-
+  </header>
       {/* Hero Section */}
       <div className="relative z-10 header-gradient py-8 md:py-10 lg:py-12">
         <div className="flex items-center justify-center gap-8 sm:gap-12 md:gap-20 lg:gap-32 px-4">
           {/* Left Logo */}
           <div className="logo-circle w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full bg-white flex items-center justify-center border-4 border-white overflow-hidden flex-shrink-0">
-            <img
-              src="/pcg.png"
-              alt="Philippine Coast Guard Seal"
-              className="w-[90%] h-[90%] object-contain"
-            />
+           <img
+  src={pcg}
+  alt="Philippine Coast Guard Seal"
+  className="w-[90%] h-[90%] object-contain"
+/>
+
           </div>
 
           {/* Center Title */}
@@ -64,10 +67,11 @@ function App() {
           {/* Right Logo */}
           <div className="logo-circle w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full bg-white flex items-center justify-center border-4 border-white overflow-hidden flex-shrink-0">
             <img
-              src="/cgdpal.ico"
-              alt="Coast Guard District Palawan Seal"
-              className="w-[90%] h-[90%] object-contain"
-            />
+  src={cgdpal}
+  alt="Coast Guard District Palawan Seal"
+  className="w-[90%] h-[90%] object-contain"
+/>
+
           </div>
         </div>
       </div>
