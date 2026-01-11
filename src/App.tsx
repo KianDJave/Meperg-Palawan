@@ -64,7 +64,7 @@ function App() {
           {/* Right Logo */}
           <div className="logo-circle w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full bg-white flex items-center justify-center border-4 border-white overflow-hidden flex-shrink-0">
             <img
-              src="./public/cgdpal.ico"
+              src="./cgdpal.ico"
               alt="Coast Guard District Palawan Seal"
               className="w-[90%] h-[90%] object-contain"
             />
