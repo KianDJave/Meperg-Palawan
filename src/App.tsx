@@ -6,7 +6,7 @@ function App() {
       {/* Background - Ship Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/public/9701.jpg"
+          src="/9701.jpg"
           alt="Coast Guard Facility"
           className="w-full h-full object-cover object-center"
         />
@@ -17,7 +17,7 @@ function App() {
        <header className="bg-blue-900/90 text-white py-3 px-4 md:px-6 flex items-center justify-between relative z-10">
         <div className="flex items-center gap-2">
           <svg
-            xmlns="/public/pcg.png"
+            xmlns="/pcg.png"
             viewBox="0 0 24 24"
             fill="currentColor"
             className="w-6 h-6 md:w-7 md:h-7"
@@ -45,7 +45,7 @@ function App() {
           {/* Left Logo */}
           <div className="logo-circle w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full bg-white flex items-center justify-center border-4 border-white overflow-hidden flex-shrink-0">
             <img
-              src="/public/pcg.png"
+              src="/pcg.png"
               alt="Philippine Coast Guard Seal"
               className="w-[90%] h-[90%] object-contain"
             />
@@ -64,7 +64,7 @@ function App() {
           {/* Right Logo */}
           <div className="logo-circle w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full bg-white flex items-center justify-center border-4 border-white overflow-hidden flex-shrink-0">
             <img
-              src="/public/cgdpal.png"
+              src="/cgdpal.png"
               alt="Coast Guard District Palawan Seal"
               className="w-[90%] h-[90%] object-contain"
             />
