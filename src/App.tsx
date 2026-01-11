@@ -1,5 +1,5 @@
 import { Home, Search } from "lucide-react";
-import bg from "./assets/9701.jpg";
+
 import pcg from "./assets/pcg.png";
 import cgdpal from "./assets/cgdpal.png";
 
@@ -8,15 +8,15 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col relative">
       {/* Background - Ship Image */}
-      <div className="absolute inset-0 z-0">
-        <img
-  src={bg}
-  alt="Coast Guard Facility"
-  className="w-full h-full object-cover object-center"
-/>
+      <div className="absolute inset-0 z-10">
+  <img
+    src="/9701.jpg"
+    alt="Coast Guard Facility"
+    className="w-full h-full object-cover object-center"
+  />
+  <div className="absolute inset-0 bg-gradient-to-b from-blue-900/75 via-blue-700/60 to-blue-600/70" />
+</div>
 
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/75 via-blue-700/60 to-blue-600/70" />
-      </div>
 
       {/* Top Navigation Bar */}
        <header className="bg-blue-900/90 text-white py-3 px-4 md:px-6 flex items-center justify-between relative z-10">
