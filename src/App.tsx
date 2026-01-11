@@ -15,29 +15,29 @@ function App() {
 
       {/* Top Navigation Bar */}
        <header className="bg-blue-900/90 text-white py-3 px-4 md:px-6 flex items-center justify-between relative z-10">
-        <div className="flex items-center gap-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            className="w-6 h-6 md:w-7 md:h-7"
-          >
-            <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
-            <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
-          </svg>
-          <span className="font-semibold text-sm md:text-base">Home</span>
-        </div>
-        <div className="flex-1 mx-4">
-          <input
-            type="text"
-            placeholder="Search..."
-            className="w-full max-w-md px-4 py-1.5 rounded-full bg-white/10 border border-white/30 text-white placeholder:text-white/60 text-sm"
-          />
-        </div>
-        <div className="flex items-center gap-4">
-          <span className="text-sm">Admin</span>
-        </div>
-      </header>
+  {/* Home */}
+  <div className="flex items-center gap-2">
+    <Home className="w-6 h-6 md:w-7 md:h-7" />
+    <span className="font-semibold text-sm md:text-base">Home</span>
+  </div>
+
+  {/* Search */}
+  <div className="flex-1 mx-4 max-w-md relative">
+    <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white/70" />
+    <input
+      type="text"
+      placeholder="Search..."
+      className="w-full pl-10 pr-4 py-1.5 rounded-full bg-white/10 border border-white/30 text-white placeholder:text-white/60 text-sm focus:outline-none focus:ring-2 focus:ring-white/30"
+    />
+  </div>
+
+  {/* User */}
+  <div className="flex items-center gap-4">
+    <span className="text-sm">Admin</span>
+  </div>
+</header>
+
+
 
       {/* Hero Section */}
       <div className="relative z-10 header-gradient py-8 md:py-10 lg:py-12">
@@ -64,7 +64,7 @@ function App() {
           {/* Right Logo */}
           <div className="logo-circle w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full bg-white flex items-center justify-center border-4 border-white overflow-hidden flex-shrink-0">
             <img
-              src="./cgdpal.ico"
+              src="/cgdpal.ico"
               alt="Coast Guard District Palawan Seal"
               className="w-[90%] h-[90%] object-contain"
             />
