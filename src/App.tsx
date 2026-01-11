@@ -1,6 +1,5 @@
 import { Home, Search } from "lucide-react";
 
-import pcg from "./assets/pcg.png";
 import cgdpal from "./assets/cgdpal.png";
 
 function App() {
@@ -44,7 +43,7 @@ function App() {
           {/* LEFT LOGO */}
           <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-white flex items-center justify-center border-4 border-white">
             <img
-              src={pcg}
+              src="/public/pcg.png"
               alt="Philippine Coast Guard Seal"
               className="w-[90%] h-[90%] object-contain"
             />
@@ -63,7 +62,7 @@ function App() {
           {/* RIGHT LOGO */}
           <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-white flex items-center justify-center border-4 border-white">
             <img
-              src={cgdpal}
+              src="/public/cgdpal.png"
               alt="CG District Palawan Seal"
               className="w-[90%] h-[90%] object-contain"
             />
