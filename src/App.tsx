@@ -1,7 +1,5 @@
 import { Home, Search } from "lucide-react";
 
-import cgdpal from "./assets/cgdpal.png";
-
 function App() {
   return (
     <div className="relative min-h-screen overflow-hidden">
