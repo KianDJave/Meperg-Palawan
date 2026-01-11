@@ -10,7 +10,7 @@ function App() {
       {/* Background - Ship Image */}
       <div className="absolute inset-0 z-10">
   <img
-    src="/9701.jpg"
+    src="../9701.jpg"
     alt="Coast Guard Facility"
     className="w-full h-full object-cover object-center"
   />
